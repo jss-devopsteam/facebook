@@ -1,0 +1,924 @@
+    1  uname
+    2  ls
+    3  uname
+    4  ls
+    5  tree
+    6  uname
+    7  mkdir Devops
+    8  ls
+    9  mkdir -v Joseph
+   10  mkdir -pv Devops/Linux/Git/Gitbash/Maven
+   11  ls
+   12  tree
+   13  yum install tree
+   14  sudo su -
+   15  tree
+   16  ls
+   17  ls -lt
+   18  ls -ltr
+   19  ls -lh
+   20  touch .Hello.txt
+   21  ls
+   22  ls -a
+   23  ls -li
+   24  cd Joseph
+   25  mkdir -v test
+   26  rmdir test/
+   27  ls
+   28  cd
+   29  ls
+   30  mkdir -v Test
+   31  ls
+   32  rmdir Test/
+   33  ls
+   34  cd Devops
+   35  cd..
+   36  cd ..
+   37  tree
+   38  cd Devops
+   39  cd Linux
+   40  cd Git
+   41  ls
+   42  cd ..
+   43  history
+   44  uname
+   45  ls
+   46  tree
+   47  touch emptyfile.txt
+   48  ls
+   49  find . -type f
+   50  find . -type f -empty
+   51  find / -type f -empty
+   52  find ~  -type f -empty
+   53  find . -type f -empty
+   54  find ~  -type f -empty
+   55  sudo su -
+   56  ls
+   57  chmod -R 777 Jose/hi
+   58  ls 
+   59  ls -lh
+   60  chmod -R 777 Devops
+   61  ls -lh
+   62  umask
+   63  chmod 664 Joseph
+   64  ls -lh
+   65  umask
+   66  sudo su-
+   67  sudo su -
+   68  uname
+   69  umask
+   70  sudo su -
+   71  ls
+   72  ls -lh
+   73  uname
+   74  cat /etc/group
+   75  ls
+   76  tree
+   77  vi test.txt
+   78  cat text.txt
+   79  cat test.txt
+   80  ls -l test.txt
+   81  chmod u+rwx test.txt
+   82  ls -l test.txt
+   83  sudo su
+   84  sudo su-
+   85  sudo su
+   86  touch hello.txt
+   87  ls -l
+   88  sudo su
+   89  cp test.txt Joseph
+   90  sudo su
+   91  ls -l
+   92  sudo su
+   93  sudo su-
+   94  sudo su -
+   95  sudo su
+   96  ls -l
+   97  wc hello.txt emptyfile.txt
+   98  file hello.txt
+   99  cd Devops
+  100  ls -l
+  101  cd Joseph1
+  102  ls -l
+  103  sudo su -
+  104  sudo su
+  105  cd Devops
+  106  ls
+  107  cd
+  108  ls -l
+  109  cd Devops
+  110  ls -l
+  111  vi test.txt
+  112  ln testln.txt test.txt
+  113  ls -l
+  114  cat test.txt
+  115  ln test.txt textln.txt
+  116  ls -l
+  117  vi test.txt
+  118  cat textln.txt
+  119  cat test.txt
+  120  ls -li test.txt
+  121  ls -li
+  122  ln -s linux testLinux
+  123  ls -li
+  124  cd
+  125  ls -li
+  126  ln -s Joseph Josephlns
+  127  ls -li
+  128  rm Joseph
+  129  rm hello.txt
+  130  ls li
+  131  ls -li
+  132  rm -f Joseph 
+  133  rmdir -f Joseph
+  134  rmdir Joseph
+  135  rm -rf Joseph
+  136  mkdir Raja 
+  137  ls -li
+  138  ln -s Raja Rajaln
+  139  ls -li
+  140  rm -f Raja
+  141  tree Raja
+  142  rmdir Joseph
+  143  rmdir Raja
+  144  ls li
+  145  ls -li
+  146  cat Rajaln
+  147  ls -li
+  148  vi mithun.txt
+  149  cat mithun.txt
+  150  ls -li
+  151  ln mithun.txt mi.txt
+  152  ls -li
+  153  vi mithun.txt
+  154  cat mi.txt
+  155  rm mithun.txt
+  156  ls -li
+  157  vi softlink.txt
+  158  cat softlink.txt
+  159  ls -li
+  160  ln -s softlink.txt softlink1.txt
+  161  ls -li
+  162  rm -r softlink.txt
+  163  ls -li
+  164  rm -r softlink1.txt
+  165  ls -li
+  166  mkdir jose
+  167  ls -li
+  168  ln -s jose jose1
+  169  ls -li
+  170  rmdir jose
+  171  ls -li
+  172  rmdir jose1
+  173  ls -li
+  174  rm -f jose
+  175  ls -li
+  176  rm -f jose1
+  177  ls -li
+  178  rm -f Rajaln
+  179  ls -li
+  180  history
+  181  uname
+  182  ls
+  183  sudo su 
+  184  ls
+  185  cat anaconda-ks.cfg
+  186  ls -li
+  187  cat anaconda-ks.cfg
+  188  sudo su -
+  189  uname
+  190  ls -li
+  191  cat -n testvim.txt
+  192  sort testvim.txt
+  193  vim
+  194  vim simple.txt
+  195  cat simple.txt
+  196  sort -n simple.txt
+  197  sort -r simple.txt
+  198  cat simple.txt|sort
+  199  cat simple.txt |sort|tr[a-z][A-Z]-i
+  200  cat simple.txt |sort|tr[a-z][A-Z] -i
+  201  cat simple.txt |sort|tr[a-z][A-Z]
+  202  cat simple.txt | sort | tr [a-z] [A-Z]
+  203  cat simple.txt|sort -r
+  204  cat simple.txt|sort
+  205  grep simple.txt
+  206  grep joseph simple.txt
+  207  grep Joseph simple.txt
+  208  grep -i joseph simple.txt
+  209  vim sample.txt
+  210  cat sample.txt
+  211  sed "s/red/blue" sample.txt
+  212  sed "s/red/blue/" sample.txt
+  213  sed "s/red/blue/g" sample.txt
+  214  cat sample.txt
+  215  sed -i "s/red/blue/g" sample.txt
+  216  cat sample.txt
+  217  ls i
+  218  ls -li
+  219  more anaconda-ks.cfg
+  220  sudo su
+  221  ls -li
+  222  vim sample.txt
+  223  exit
+  224  uname
+  225  vim test.txt
+  226  yum isntall vim
+  227  sudo su -
+  228  vim testvim.txt
+  229  cat testvim.txt
+  230  nano testnano.txt
+  231  sudo su -
+  232  nano nanotest.txt
+  233  cat nanitest.txt
+  234  cat nanotest.txt
+  235  echo "Hello world"
+  236  echo " Hello       world"
+  237  echo hello    world
+  238  cat test.txt hello.txt
+  239  ls
+  240  cat mi.txt testvim.txt
+  241  cat -n testvim.txt
+  242  uname
+  243  ls
+  244  uname
+  245  who 
+  246  whoami
+  247  who -h
+  248  who -H
+  249  who -T
+  250  w
+  251  users
+  252  whereis chmod
+  253  where -b chmod
+  254  whereis -b chmod
+  255  whereis -h chmod
+  256  whereis jenkins
+  257  whereis -h jenkins
+  258  date
+  259  date +d
+  260  date +%d
+  261  date +%m
+  262  date +%y
+  263  date +%D
+  264  date +%h
+  265  date +%H
+  266  date +%M
+  267  date +%S
+  268  date +%y
+  269  date +%a
+  270  df
+  271  df -h
+  272  df -a
+  273  df -ah
+  274  df -h
+  275  du
+  276  sudo su -
+  277  du -h
+  278  hostname
+  279  ifconfig
+  280  hostname -i
+  281  ip a
+  282  man date
+  283  info date
+  284  date --help
+  285  whatis mkdir
+  286  sytemctl list - unit - files
+  287  sytemctl list - unit -files
+  288  sytemctl list -unit-files
+  289  sytemctl list
+  290  last
+  291  status sshd.service
+  292  service sshd status
+  293  sudo su -
+  294  sytemctl list-unit-file
+  295  sytemctl list-unit-files
+  296  systemctl list-unit-files
+  297  systemctl -list-unit-files
+  298  history
+  299  systemctl list-unit-files
+  300  history
+  301  systemctl list-unit-files
+  302  history
+  303  exit
+  304  uname
+  305  ps - ef 1 grep jenkins
+  306  ps - ef |grep java
+  307  ps
+  308  sudo su-
+  309  sudo su -
+  310  pos
+  311  ps
+  312  ps -f
+  313  ps -ef
+  314  ps -A
+  315  ps ux
+  316  ps aux
+  317  pstree
+  318  kill
+  319  kill -l
+  320  ps -ef | grep Java
+  321  top
+  322  ls
+  323  tree devops
+  324  tree Devops
+  325  mkdir -p aws/Joseph/test/123
+  326  ls
+  327  tree aws
+  328  zip -r aws.zip aws/
+  329  ls
+  330  tree Joseph
+  331  zip Joseph.zip Joseph
+  332  sudo su 
+  333  zip Joseph.zip Joseph
+  334  zip -r aws.zip aws/
+  335  ls
+  336  unzip aws.zip
+  337  ls
+  338  tre aws
+  339  tree aws
+  340  ls
+  341  ls -l
+  342  mkdir -rp testzip/123/345
+  343  mkdir -p test/gg/hh
+  344  ls -l
+  345  tree test
+  346  zip -rm test.zip test
+  347  ls -l
+  348  unzip test.zip
+  349  ls -l
+  350  unzip test.zip -d /tmp
+  351  cat /tmp
+  352  tar -cvf test.tar test
+  353  ls -l
+  354  tar -cvf test.tar
+  355  tar -Xvf test.tar
+  356  tar -xvf test.tar
+  357  rm -rf aws/
+  358  ls -l
+  359  user add Joseph
+  360  sudo su -
+  361  useradd Joseph
+  362  useradd test
+  363  sudo su 
+  364  users
+  365  ls -l
+  366  uname
+  367  ls -l
+  368  sudo su -
+  369  sexit
+  370  exit
+  371  uname
+  372  uname
+  373  ps -ef |tomcat
+  374  ps -ef | Jenkin
+  375  ps -ef | Jenkins
+  376  top
+  377  users
+  378  kill -l
+  379  ps
+  380  ls -l
+  381  df -h
+  382  -l /home
+  383  -l /home/
+  384  sudo su -
+  385  uname
+  386  ls
+  387  crontab -l
+  388  ls
+  389  crontab -l
+  390  ls -l
+  391  crontab -l Joseph
+  392  crontab -l -u Joseph
+  393  sudo su -
+  394  crontab -l
+  395  sudo touch /etc/cron.allow
+  396  crontab -l
+  397  sudo vi cron.allow
+  398  crontab -l
+  399  exit
+  400  uname
+  401  exit
+  402  ls
+  403  crontab -l
+  404  cat cron.allow
+  405  sevice crond
+  406  service crond
+  407  service crond status
+  408  sudo touch /etc/cron.allow
+  409  vi /etc/cron.allow
+  410  cat /etc/cron.allow
+  411  cat cron.allow
+  412  rm -f cron.allow
+  413  ls -l
+  414  crontab -l
+  415  sudo vi /etc/cron.allow
+  416  cat /etc/cron.allow
+  417  crontab -l
+  418  vi hello.sh
+  419  cat hello.sh
+  420  ls -l
+  421  chmod u+x hello.sh
+  422  ls -l
+  423  ./hello.sh
+  424  crontab -e
+  425  crontab -l
+  426  ls -l
+  427  sevice crond status
+  428  services crond status
+  429  sudo services crond status
+  430  sudo service crond status
+  431  ls -l
+  432  crontab -l
+  433  cat hello.sh
+  434  ./hello.sh
+  435  history
+  436  vi hello.sh
+  437  ./hello.sh
+  438  crontab -l
+  439  ls -l
+  440  cat hello.log
+  441  ls -l
+  442  crontab -l
+  443  crontab -e
+  444  ls -l
+  445  cat hello.log
+  446  crontab -e
+  447  cat hello.log
+  448  crontab -e
+  449  cat hello.log
+  450  crontab -ir
+  451  crontab -l
+  452  sudo su -
+  453  exit
+  454  uname
+  455  history
+  456  uname
+  457  history
+  458  restart sshd.service
+  459  ls
+  460  scp  test.tar ec2-user@
+  461  scp  test.tar ec2-user@13.233.67.1:/tmp/
+  462  service --staus all
+  463  man systemctl
+  464  systemctl list -unit -files
+  465  sudo su -
+  466  uname
+  467  scp  test.tar ec2-user@13.233.67.1:/tmp/
+  468  cd /tmp/
+  469  ls
+  470  pwd
+  471  ls
+  472  exit
+  473  uname
+  474  ls
+  475  tree Devops
+  476  scp -r Devops ec2-user@13.233.67.1:/tmp/
+  477  tree Joseph
+  478  scp -r Joseph ec2user@13.233.67.1:/tmp/
+  479  ls -l
+  480  sudo su
+  481  exit
+  482   sudo scp -r Joseph ec2user@13.233.67.1:/tmp/
+  483  df -h
+  484  free -h
+  485  free
+  486  free -h
+  487  free -k
+  488  free -g
+  489  free -t
+  490  sudo dmidecode
+  491  calc 
+  492  cal
+  493  cal -3
+  494  cal -1
+  495  cal 2022
+  496  cal 2023
+  497  cal 2030
+  498  cal 5000
+  499  cal 4 2022
+  500  cal 3 2022
+  501  sudo yum install wget -y
+  502  wget -o/tmp/ maven.zip https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz
+  503  wget -o/tmp/maven.tar.gz https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz
+  504  cd /tmp/
+  505  ls
+  506  cd
+  507  curl -o maven.tar.gz https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz
+  508  ls
+  509  rm -rf apache-maven-3.8.5-bin.tar.gz
+  510  ls -l
+  511  history
+  512  date
+  513  hostname
+  514  exit
+  515  ls -lh
+  516  mkdir scripttest
+  517  ls -lh
+  518  exit
+  519  date
+  520  ca
+  521  calc
+  522  cal
+  523  cal 2022
+  524  exit
+  525  ls
+  526  ls -lh
+  527  cat Joseph.txt
+  528  sudo su -
+  529  cat Joseph.txt
+  530  ls > lsoutpt1.txt
+  531  cat lsoutpt1.txt
+  532  ls |tee teeoutpt.log
+  533  cat teeoutpt.log
+  534  script
+  535  cat typescript
+  536  script -a typescript
+  537  cat typescript
+  538  clear
+  539  script Riana.txt
+  540  cat Riana.txt
+  541  history
+  542  history > history.txt
+  543  cat history.txt
+  544  ping google.com
+  545  telnet google.com 80
+  546  telnet google.com 8080
+  547  uname 
+  548  uname -a
+  549  man uname
+  550  uname -r
+  551  uname -a
+  552  uname -r
+  553  cat /etc/*release
+  554  netstat tnlpa
+  555  netstat -tnlpa
+  556  watch 
+  557  date
+  558  watch date
+  559  watch -n 5 date
+  560  exit
+  561  uname
+  562  ls >lsopt.txt
+  563  cat lsopt.txt
+  564  tee
+  565  ls | tee
+  566  ls | tee teeoutpt.log
+  567  cat teeoutpt.log
+  568  script
+  569  ls
+  570  touch hhh.txt
+  571  ls -lh
+  572  cat typescript
+  573  script Joseph.txt
+  574  cat Joseph.txt
+  575  shoutdown
+  576  sudo shutdown
+  577  shutdown -c
+  578  sudo shutdown
+  579  uname
+  580  echo $shell
+  581  ls
+  582  echo $SHELL
+  583  cat /etc/shells
+  584  sudo yum install csh-y
+  585  sudo yum install zsh -y
+  586  sudo yum install -y
+  587  yum install csh -y
+  588  sudo yum install csh -y
+  589  vi Hello.sh
+  590  cat Hello.sh
+  591  ./Hello.sh
+  592  ls-l Hello.sh
+  593  ls -lh 
+  594  chmod u+x Hello.sh
+  595  ls -lh
+  596  ./Hello.sh
+  597  . Hello.sh
+  598  sh Hello.sh
+  599  bash Hello.sh
+  600  uname
+  601  history
+  602  uname
+  603  vi comments
+  604  sh -x comments
+  605  cat -n comments
+  606  sh /comments
+  607  echo SHELL
+  608  echo $PWD
+  609  echo $USER
+  610  vi variable.sh
+  611  sh /variable.sh
+  612  sh variable.sh
+  613  vi variable.sh
+  614  sh variable.sh
+  615  vi variable.sh
+  616  sh variable.sh
+  617  vi variable.sh
+  618  sh variable.sh
+  619  vi variable.sh
+  620  sh variable.sh
+  621  vi variable.sh
+  622  sh variable.sh
+  623  vi variable.sh
+  624  sh variable.sh
+  625  uname
+  626  mkdir ShellScript
+  627  cd .
+  628  cd ShellScript
+  629  ls
+  630  vi dbBackup.sh
+  631  sh dbBackup.sh dabname dbloc
+  632  cat dbBackup.sh 
+  633  sh dbBackup.sh db dbnn
+  634  vi dbBackup.sh 
+  635  sh dbBackup.sh dn ghh
+  636  vi dbBackup.sh 
+  637  sh dbBackup.sh dn ghh
+  638  sh dbBackup.sh 
+  639  vi dbBackup.sh 
+  640  sh dbBackup.sh db loc
+  641  sh dbBackup.sh dbname dbbackup
+  642  vi dbBackup.sh 
+  643  sh dbBackup.sh dbname dbbackup
+  644  vi dbBackup.sh 
+  645  sh dbBackup.sh dbname dbbackup
+  646  vi dbBackup.sh 
+  647  sh dbBackup.sh dbname dbbackup
+  648  vi dbBackup.sh 
+  649  sh dbBackup.sh dbname dbbackup
+  650  vi dbBackup.sh 
+  651  sh dbBackup.sh 
+  652  sh dbBackup.sh dbname dbbackup
+  653  sh dbBackup.sh 
+  654  vi dbBackup.sh 
+  655  sh dbBackup.sh 
+  656  sh dbBackup.sh dbname dbbackup
+  657  vi Softwareins.sh
+  658  sh Softwareins java -version
+  659  sh Softwareins.sh java -version
+  660  sh Softwareins.sh
+  661  java -version
+  662  vi Softwareins.sh
+  663  sh Softwareins.sh
+  664  sudo su -
+  665  sh Softwareins.sh
+  666  history
+  667  history notes.txt
+  668  cd
+  669  history hi.txt
+  670  history > ReferenceCommands.txt
+  671  cd shellScript
+  672  cd ShellScript/
+  673  vi string.sh
+  674  sh string.sh
+  675  vi string.sh
+  676  sh string.sh
+  677  vi string.sh
+  678  sh string.sh
+  679  cat string.sh
+  680  vi string.sh
+  681  sh string.sh
+  682  vi string.sh
+  683  sh string.sh
+  684  cat string.sh
+  685  vi string.sh
+  686  sh string.sh
+  687  cat string.sh
+  688  ls -lh
+  689  exit
+  690  uname
+  691  ls -lh
+  692  cd ShellScript
+  693  ls -l
+  694  vi Arthimatic_opr
+  695  sh Arthimatic_opr 
+  696  vi AriOpe.sh
+  697  cat Arthimatic_opr
+  698  vi AriOpe.sh
+  699  sh AriOpe.sh 
+  700  vi AriOpe.sh
+  701  sh AriOpe.sh 
+  702  vi AriOpe.sh
+  703  sh AriOpe.sh 
+  704  vi AriOpe.sh
+  705  sh AriOpe.sh 
+  706  ls -l
+  707  vi dbBackup.sh 
+  708  vi AriOpe.sh
+  709  sh AriOpe.sh  
+  710  sh AriOpe.sh  2 7
+  711  vi AriOpe.sh
+  712  sh AriOpe.sh  2 7
+  713  vi AriOpe.sh
+  714  sh AriOpe.sh  10 10
+  715  vi read1.sh
+  716  sh read1
+  717  ls -l
+  718  sh read1.sh
+  719  vi readandAriOp.sh
+  720  sh readandAriOp.sh 
+  721  vi readandAriOp.sh
+  722  sh readandAriOp.sh 
+  723  vi readandAriOp.sh
+  724  sh readandAriOp.sh 
+  725  vi readandAriOp.sh
+  726  sh readandAriOp.sh 
+  727  vi readandAriOp.sh
+  728  sh readandAriOp.sh 
+  729  vi ReadDevTools.sh
+  730  sh ReadDevTools.sh 
+  731  vi ReadDevTools.sh
+  732  sh ReadDevTools.sh 
+  733  vi ReadDevTools.sh
+  734  sh ReadDevTools.sh 
+  735  vi Array1.sh
+  736  sh Array1.sh
+  737  vi reply1.sh
+  738  sh reply1.sh 
+  739  vi read_p.sh
+  740  sh read_p.sh
+  741  vi read_p.sh
+  742  sh read_p.sh
+  743  vi read_p.sh
+  744  sh read_p.sh
+  745  vi read_p.sh
+  746  sh read_p.sh
+  747  vi read_p.sh
+  748  sh read_p.sh
+  749  ls -l
+  750  sh dbBackup.sh 
+  751  sh dbBackup.sh db loc
+  752  sh dbBackup.sh ag1 ag2 > error.log
+  753  sh dbBackup.sh ag1 ag2 > error.log 2>&1
+  754  cat error.log
+  755  sh dbBackup.sh ag1 ag2 2> error.log 1>output.log
+  756  cat error.log
+  757  cat ouput.log
+  758  ls 
+  759  ls -l
+  760  cat error.log
+  761  cat output.log
+  762  history
+  763  ls >lsopt.log
+  764  cat lsopt.log
+  765  date >lsopt.log
+  766  cat lsopt.log
+  767  ls > lsopt.log
+  768  cat lsopt.log
+  769  date >> lsopt.log
+  770  cat lsopt.log
+  771  history
+  772  cat < lsopt.log
+  773  vi ifcond.sh
+  774  sh ifcond.sh 
+  775  vi ifcond.sh
+  776  sh ifcond.sh 
+  777  vi ifcond.sh
+  778  sh ifcond.sh 
+  779  vi ifcond.sh
+  780  sh ifcond.sh 
+  781  vi 3gn.sh
+  782  sh 3gn.sh 
+  783  vi 3gn.sh
+  784  sh 3gn.sh 
+  785  vi 3gn.sh
+  786  sh 3gn.sh 
+  787  vi 3gn.sh
+  788  sh 3gn.sh 
+  789  vi 3gn.sh
+  790  sh 3gn.sh 
+  791  vi 3gn.sh
+  792  sh 3gn.sh 
+  793  vi 3gn.sh
+  794  sh 3gn.sh 
+  795  cat 3gn.sh 
+  796  vi chekfile.sh
+  797  sh chekfile.sh 
+  798  vi chekfile.sh
+  799  sh chekfile.sh 
+  800  ls -l
+  801  cat hello
+  802  vi chekfile.sh
+  803  sh chekfile.sh 
+  804  vi chekfile.sh
+  805  sh chekfile.sh 
+  806  ls -l
+  807  vi filpermis.sh
+  808  sh filpermis.sh 
+  809  chmod u+x joseph.sh
+  810  ls -l
+  811  chmod u+0 joseph.sh
+  812  chmod u-r joseph.sh
+  813  ls -l
+  814  sh filpermis.sh 
+  815  vi filpermis.sh 
+  816  sh filpermis.sh 
+  817  vi filpermis.sh
+  818  sh filpermis.sh 
+  819  chmod u-w joseph.sh
+  820  sh filpermis.sh 
+  821  ls -l
+  822  vi filpermis.sh
+  823  sh filpermis.sh 
+  824  vi filpermis.sh 
+  825  sh filpermis.sh 
+  826  chmod u-x joseph.sh
+  827  ls -l
+  828  sh filpermis.sh 
+  829  ls -l
+  830  history
+  831  uname
+  832  vi forloopexp.sh
+  833  sh forloopexp.sh 
+  834  cat forloopexp.sh 
+  835  vi forloopexp.sh 
+  836  sh forloopexp.sh 
+  837  vi forloopexp.sh 
+  838  sh forloopexp.sh 
+  839  vi forloopexp1.sh
+  840  sh forloopexp1.sh 
+  841  vi forloopexp1.sh
+  842  sh forloopexp1.sh 
+  843  vi forloopexp1.sh
+  844  vi forloopexp.sh
+  845  sh forloopexp.sh 
+  846  vi forloopexp.sh
+  847  sh forloopexp.sh 
+  848  vi forloopexp.sh
+  849  sh forloopexp.sh 
+  850  vi forloopexp1.sh
+  851  sh forloopexp1.sh 
+  852  vi forloopexp1.sh
+  853  sh forloopexp1.sh 
+  854  clear
+  855  vi forloopexp1.sh
+  856  sh forloopexp1.sh 
+  857  vi forloopexp1.sh
+  858  vi whileloopexp.sh
+  859  sh whileloopexp.sh 
+  860  vi whileloopexp.sh
+  861  sh whileloopexp.sh 
+  862  vi whileloopexp.sh
+  863  sh whileloopexp.sh 
+  864  vi whileloopexp.sh
+  865  sh whileloopexp.sh 
+  866  vi whileloopexp.sh
+  867  vi whileloopexp1
+  868  vi whileloopexp2.sh
+  869  sh whileloopexp2.sh
+  870  vi whileloopexp2.sh
+  871  sh whileloopexp2.sh
+  872  clear
+  873  vi whileloopexp2.sh
+  874  sh whileloopexp2.sh
+  875  cleart
+  876  clear
+  877  vi forloopdirdispaly.sh
+  878  sh forloopdirdispaly.sh 
+  879  vi forloopdispalyfile.sh
+  880  sh forloopdispalyfile.sh
+  881  clear
+  882  vi switchcase1.sh
+  883  sh switchcase1.sh 
+  884  vi funcexp.sh
+  885  sh funcexp.sh 
+  886  vi funexp1.sh
+  887  vi funcall.sh
+  888  sh funcall.sh
+  889  vi funexp1.sh
+  890  cat funexp1
+  891  cat funexp1.sh
+  892  sh funcall.sh
+  893  uname
+  894  git --version
+  895  sudo yum install git y
+  896  git --version
+  897  sudo yum install git -y
+  898  git --version
+  899  git init
+  900  git init Mithuntech
+  901  cd Mithuntech
+  902  vi devops.txt
+  903  git status
+  904  git add devops.txt
+  905  git status
+  906  vi mss.sh
+  907  git status
+  908  git add .
+  909  git status
+  910  git commit -m " Shell and txt file added"
+  911  git config --global --list
+  912  git config --global user.email "wtreand@gmail.com"
+  913  git config --global user.name ="Joseph150580"
+  914  git config --global user.email "wtreand@gmail.com"
+  915  git config --global --list
+  916  git config --global user.name "Joseph150580"
+  917  git config --global --list
+  918  git status
+  919  git remote add fb https://github.com/jss-devopsteam/facebook.git
+  920  git remote -v
+  921  git push fb
+  922  git push fb master
+  923  history
+  924  history > marchhistory.txt
